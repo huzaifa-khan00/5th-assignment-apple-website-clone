@@ -1,98 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.container{
-    width: 100vw;
-    height: 100vh;
-    height: 100dvh;
+.container {
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
 }
 
-nav{
-    Width: 100%;
-    height: 45px;
-    background-color: rgb(24,24,24);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.links{
-    width: 1000px;
-    min-width: min(1030px, 72%);
-    height: 100%;
-    display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
+.links {
+  width: 1000px;
+  min-width: min(1030px, 100%);
+  height: 100%;
+  display: flex;
 }
 
-.nav-desk{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-    padding: 0px 20px;
+.nav-desk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: calc(100% - 20px);
+  padding: 0px 20px;
 }
 
-.nav-mob{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-    padding: 0px 20px;
+.nav-mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0px 20px;
 }
 
-.mob-logo{
-    margin-right: auto;
+.mob-logo {
+  margin-right: auto;
 }
 
-nav li, nav a{ 
-    display: flex;
-    align-items: center;
+nav li,
+nav a {
+  display: flex;
+  align-items: center;
 }
 
-nav a{
-    text-decoration: none;
-    color: rgb(188,188,188);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 0.8em;
+nav a {
+  text-decoration: none;
+  color: rgb(188, 188, 188);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
 }
 
-.nav-mob{
-    display: none;
+.nav-mob {
+  display: none;
 }
 
-.img1{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+.img1,
+.img2,
+.img3 {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
 }
 
 @media (max-width: 833px) {
+  nav {
+    height: 50px;
+  }
+  .nav-mob {
+    display: flex;
+    padding: 0px 15px;
+  }
 
-    nav{
-        height: 50px;
-    }
-    .nav-mob{
-        display: flex;
-        padding: 0px 15px;
-}
+  .mob-search,
+  .mob-shop,
+  .mob-menu {
+    margin-left: 30px;
+  }
 
-    .mob-search, .mob-shop, .mob-menu{
-        margin-left: 30px;
-    }
-
-    .nav-desk{
-        display: none;
-    }
-
+  .nav-desk {
+    display: none;
+  }
 }
