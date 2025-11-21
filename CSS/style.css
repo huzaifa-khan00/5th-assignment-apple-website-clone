@@ -8,6 +8,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .container {
@@ -71,12 +72,22 @@ nav a {
   display: none;
 }
 
-.img1,
-.img2,
-.img3 {
+.hero-img1 {
   width: 100%;
-  height: 580px;
+  height: 700px;
   object-fit: cover;
+}
+
+.sec1{
+  position: relative;
+}
+
+.hero-content1{
+  text-align: center;
+  width: 100%;
+  background-color: yellow;
+  position: absolute;
+  bottom: 100px;
 }
 
 @media (max-width: 833px) {
