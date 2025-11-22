@@ -208,7 +208,7 @@ nav a {
 .s2-hero-img2,
 .s2-hero-img3 {
   width: 100%;
-  height: 500px;
+  height: 580px;
   object-fit: cover;
   margin-top: 8px;
 }
@@ -238,27 +238,14 @@ nav a {
 }
 
 .s2-headline1,
-.s2-headline2 {
-  font-size: 4em;
+.s2-headline2, .s2-headline3 {
+  font-size: 3em;
   font-weight: bolder;
-  color: white;
-}
-
-.s2-headline3 {
-  font-size: 4em;
-  font-weight: bolder;
-  color: black;
+ color: black;;
 }
 
 .s2-sub-head1,
-.s2-sub-head2 {
-  font-size: 30px;
-  color: #ffffff;
-  margin-top: 5px;
-  margin-bottom: 35px;
-}
-
-.s2-sub-head3 {
+.s2-sub-head2, .s2-sub-head3 {
   font-size: 30px;
   color: black;
   margin-top: 5px;
