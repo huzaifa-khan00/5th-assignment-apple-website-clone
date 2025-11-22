@@ -265,13 +265,13 @@ nav a {
 
 .s2-hero-img1-m {
   width: 100%;
-  height: 700px;
+  height: 550px;
   object-fit: cover;
 }
 .s2-hero-img2-m,
 .s2-hero-img3-m {
   width: 100%;
-  height: 700px;
+  height: 550px;
   object-fit: cover;
   margin-top: 8px;
 }
@@ -415,13 +415,15 @@ nav a {
 
 .headline1,
 .headline2, .headline3 {
-  font-size: 2.5em  ;
+  font-size: 2.8em  ;
 }
 
 .sub-head1,
 .sub-head2, .sub-head3 {
-  font-size: 30px;
+  font-size: 25px;
 }
+
+/* Section two Query */
 
 .s2-headline1,
 .s2-headline2,
@@ -443,6 +445,11 @@ nav a {
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 35px;
+}
+
+.s2-hero-img1-m, .s2-hero-img2-m,
+.s2-hero-img3-m {
+  margin-top: 8px;
 }
 
 }
