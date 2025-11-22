@@ -227,6 +227,10 @@ nav a {
   display: flex;
 }
 
+.sec2-mob{
+  display: none;
+}
+
 .sub-sec1,
 .sub-sec2 {
   display: flex;
@@ -536,6 +540,16 @@ nav a {
     object-fit: cover;
     margin-top: 14px;
   }
+
+.sec2 {
+  display: none;
+}
+
+.sec2-mob{
+  display: flex;
+  flex-direction: column;
+}
+
 }
 
 @media (max-width: 833px) {
