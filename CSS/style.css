@@ -261,16 +261,14 @@ nav a {
   color: black;
 }
 
-.s2-headline1 > img {
-  width: 100px;
+      /* Section two - Headline Sizes */
+
+.s2-headline2 img {
+  width: 150px;
 }
 
-.s2-headline2 > img {
-  width: 200px;
-}
-
-.s2-headline2 > img {
-  width: 200px;
+.s2-headline5 img {
+  width: 300px;
 }
 
 .s2-sub-head1,
