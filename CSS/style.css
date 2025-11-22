@@ -423,6 +423,7 @@ nav a {
   .sub-head2,
   .sub-head3 {
     font-size: 25px;
+    font-weight: bold;
   }
 
   /* Section two Query */
@@ -434,7 +435,7 @@ nav a {
   }
 
   .s2-headline2 img {
-    width: 150px;
+    width: 147px;
   }
 
   .s2-headline5 img {
@@ -445,6 +446,7 @@ nav a {
   .s2-sub-head2,
   .s2-sub-head3 {
     font-size: 20px;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 35px;
   }
